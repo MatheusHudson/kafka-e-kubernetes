@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kafka-consumer-deployment
+  labels:
+    app: kafka-consumer
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: kafka-consumer
+  template:
+    metadata:
+      labels:
+        app: kafka-consumer
+    spec:
+      containers:
+      - name: app-kafka-consumer
+        image: kafka-consumer
+        env:
+         - name: KAFKA_BOOTSTRAP_SERVER
+           value: "my-cluster-kafka-bootstrap:9092"
+         - name: SCHEMA_REGISTRY_URL
+           value: "schema-registry-service.dev:8081"
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 10000
