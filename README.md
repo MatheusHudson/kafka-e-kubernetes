@@ -1,4 +1,4 @@
-# kafka-e-kubernetes
+# Kafka e kubernetes
 Aplicação kafka gerenciada pelo kubernetes utilizando o minikube.
 
 ## Sobre
