@@ -1,10 +1,9 @@
 # Kafka e kubernetes
 Aplicação kafka gerenciada pelo kubernetes utilizando o minikube.
 
-## Sobre
+## About
 
-Esta é uma POC criada com objetivo de criar uma aplicação kafka e realizar uma conteinerização  gerenciada pelo kubernetes utilizando dos recursos oferecidos pelo mesmo.
-
+This is a POC created in order to create an api application with a non-relational database and send a kafka topic to another application.
 
 ## Requerimentos
 
@@ -13,3 +12,5 @@ Foram utilizadas as seguintes ferramentas para o projeto:
 * `Docker`
 * `Minikube`
 * `Strimzi`
+
+If not configured, they have a default value.
