@@ -3,7 +3,7 @@ Aplicação kafka gerenciada pelo kubernetes utilizando o minikube.
 
 ## About
 
-Este é um POC criado para criar uma aplicação api com um banco de dados não relacional e enviar um tópico kafka para outra aplicação.
+Esta é uma POC criado para criar uma aplicação api com um banco de dados não relacional e enviar um tópico kafka para outra aplicação.
 
 ## Requerimentos
 
