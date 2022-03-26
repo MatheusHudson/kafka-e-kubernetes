@@ -12,5 +12,6 @@ Foram utilizadas as seguintes ferramentas para o projeto:
 * `Docker`
 * `Minikube`
 * `Strimzi`
-* 
+
+
 Se não estiverem configurados, eles terão um valor padrão.
